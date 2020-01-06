@@ -1,0 +1,12 @@
+1, git clone
+2, git branch -b test
+3, git pull origin test
+4, git checkout master
+5, git branch -b dev
+6, git add file
+7, git commit -m "add a file"
+8, git checkout test
+9, git merge dev
+10, git push origin test
+11, git checout master && git merge dev
+12, git push origin master
