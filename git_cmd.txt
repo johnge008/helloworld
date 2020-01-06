@@ -1,0 +1,26 @@
+1, clone远程代码库
+git clone
+2, 创建branch
+git checkout -b new-branch
+3, 添加文件到版本
+git add file
+4, 提交修改记录
+git commit -m "message"
+5, 切换至master分支
+git checkout master
+6, 合并分支到当前分支
+git merge new-branch
+7, 本地master分支变更推到远程master
+git push origin master
+8, 拉取远程master分支并合并至当前分支
+git pull origin master
+9, 把远程tag更新至本地
+git pull origin --tags
+10, 创建一个tag名为tag-name
+git tag -a tag-name -m "message"
+11, 把tag-name推到远程
+git push origin tag-name
+12, 列出本地所有分支
+git branch
+13, 删除本地分支new-branch
+git branch -d new-branch
